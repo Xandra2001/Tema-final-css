@@ -1,0 +1,86 @@
+.big-container{
+    margin: 0;
+    padding: 0;
+   
+}
+html {
+    cursor: pointer;
+  }
+    
+
+/*logo*/
+.logo-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+}
+.logo-container img{
+    width: 100%;
+    max-width: 70%;
+}
+/*nav*/
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   text-align: center;
+   background-color: rgb(65, 64, 64);
+   
+   
+}
+nav li{
+    display: inline;
+    
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+.big-container h2{
+    text-align: center;
+    color: cornflowerblue;
+}
+.big-continer hr{
+    border: 2px solid black;
+}
+.first-row{
+    background-color: black;
+    color: #ffff;
+}
+.nume{
+    background-color: black;
+    color: #ffff;
+    text-decoration: underline;
+    padding: 20px;
+
+}
+.nume2{
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+}
+.descriere{
+    background-image: url(../img/paw1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 130px;
+}
+.data{
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+footer{
+    background-color: #000000;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+   }
+   
